@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(29, 31, 33);
+    font-family: 'Old Standard TT';font-size: 17px;
+
+}
+
+h2 {
+    color: rgb(201, 202, 204);
+}
+
+h3 {
+    color: rgb(129, 188, 212);
+}
+
+h4 {
+    color: rgb(129, 188, 212);
+}
+
+h6 {
+    color: rgb(136, 180, 198);
+}
+p, li {
+    color: rgb(201, 202, 204);
+}
+
+em {
+  color: rgb(102, 102, 102);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.main {
+    margin-top: 90px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.content {
+
+    margin-top: 90px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.navbar {
+
+    display: inline-block;
+    padding: 5px;
+
+}
+
+.projects {
+
+  margin-top: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
