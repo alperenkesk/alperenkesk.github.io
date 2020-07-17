@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172926973-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-172926973-1');
+</script>
+  <link rel="shortcut icon" type="image/png" href="alperen.png">
+  <title>alperen</title>
+  <link rel=”shortcut icon” href=”alperen.png” />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container main">
+
+            <section class="content">
+            <img src="alperen.png" alt="alperen" style="width:23%" align="left">
+            <br></br>
+            <h2>&nbsp;alperen</h2>
+            <a href="../index.html" class="navbar"><h6>&nbsp;Ana Sayfa</h6></a>
+            <h6 class="navbar"> | </h6>
+            <a href="../benkimim.html" class="navbar"><h6>Ben Kimim?</h6></a>
+            <h6 class="navbar"> | </h6>
+            <a href="linkler.html" class="navbar"><h6>Yararlı Linkler</h6></a>
+            <br></br>
+            <br>
+            <h4 align="center"><b>Aireplay-ng ile Kablosuz Ağlara DOS Saldırısı</b></h4><br></br>
+            <p>Aireplay-ng, Kablosuz ağların parolasını kırmak için sahte trafik üretmek ve kablosuz ağlara DOS saldırılarını gerçekleştiren araçtır.</p>
+            <p>Aireplay-ng ile DOS saldırısı için iki yöntemimiz bulumaktadır. İlki kablosuz ağdaki tek bir istemciye yönelik,
+            ikincisi ise bütün kablosuz ağa yönelik bir saldırı yapmaktadır.</p>
+            <p>Tüm istemcilere saldırı yapmak için bu yollar izlenilmelidir.</p>
+            <br><h4>1. Adım</h4>
+            <p>Kablosuz ağ kartımızı monitör moda çevirmek için ismini öğreniyoruz.</p>
+            <h6><b>iwconfig</b></h6><br>
+            <img src="images/iwconfig.png" class="img-fluid" alt="iwconfig"><br></br>
+            <p>wlo1 yazan kısım kablosuz ağ kartımızdır(Sizde farklı olabilir wlan0 gibi). Kablosuz iletişimde kullanılır.</p><br>
+            <h4>2. Adım</h4>
+            <p>airmon-ng, bu araç kablosuz ağ kartımızı monitör moda çevirir. Ağ kartımız monitör modda olduğunda, tüm ağ trafiğini görebileceği ve alabileceği anlamına gelir.</p>
+            <h6><b>airmon-ng start wlo1</b></h6><br>
+            <img src="images/airmonng1.png" class="img-fluid" alt="airmong1"><br></br>
+            <h6><b>iwconfig</b></h6><br>
+            <img src="images/iwconfig2.png" class="img-fluid" alt="airmong1"><br></br>
+            <p>Kablosuz ağ kartımız monitör moduna geçtiği için wlo1mon olarak değişti.</p><br>
+            <h4>3. Adım</h4>
+            <p>airodump-ng aracı ile hedef ağların MAC adresi ve kanal numarası tespit edilir. Ağa bağlı istemcilerin de MAC adresleri de tespit edilebilir.</p>
+            <h6><b>airodump-ng wlo1mon</b></h6><br>
+            <img src="images/airodumpng1.png" class="img-fluid" alt="airodumpng"><br></br>
+            <p>BSSID kısmı MAC adresidir. CH kısmı ise kanal numarasıdır.</p><br>
+            <h4>4. Adım</h4>
+            <p>Hedef Kablosuz ağ ile kendi ağ kartımızın kanal numaralarını aynı kanal numarasına ayarlıyoruz.</p>
+            <h6><b>iwconfig wlo1mon channel [kanalnumarası]</b></h6>
+            <br></br>
+            <h4>5. Adım</h4>
+            <p>Kanal numaramızı ayarladıktan ve airodump-ng aracı ile gerekli bilgileri edindikten sonra kablosuz ağa saldırıya başlayabiliriz.</p>
+            <h6><b>aireplay-ng --deauth [paket sayısı] -a [HedefBSSID] wlo1mon </b></h6><br>
+            <img src="images/aireplayng2.png" class="img-fluid" alt="airodumpng"><br></br>
+            <p>Paket sayısını büyük tutmak daha uzun süreli bir bağlantı kesintisi yaşatabilir.</p><br>
+
+        <p>Kaynaklar</p>
+     
+       <a href="https://www.aircrack-ng.org/doku.php?id=deauthentication" class="navbar"><p>Aircrack-ng Deauthentication</p></a><br>
+       <a href="https://alikaraca.github.io/aircrack-ng/" class="navbar"><p>Aircrack-ng Ali Karaca</p></a><br>
+       <a href="https://canyoupwn.me/ddos-attack-on-wireless-access-point/" class="navbar"><p>canyoupwn.me DDOS Attack on Wireless Access Point</p></a><br></br>
+
+
+    </div>
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
