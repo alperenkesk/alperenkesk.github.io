@@ -17,8 +17,7 @@
   <meta property="twitter:description"
     content="Hey, ben Alperen. Blogumda öğrendiğim, öğretmek istediğim siber güvenlik ve yazılım ile ilgili yazılarımı paylaşmaktayım." />
   <meta property="twitter:image" content="https://alperen.ninja/alperen.png" />
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172926973-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -27,9 +26,9 @@
 
   gtag('config', 'UA-172926973-1');
 </script>
-  <link rel="shortcut icon" type="image/png" href="alperen.ico">
+  <link rel="shortcut icon" type="image/png" href="alperen.png">
   <title>alperen</title>
-  <link rel=”shortcut icon” href=”alperen.ico” />
+  <link rel=”shortcut icon” href=”alperen.png” />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
@@ -42,36 +41,43 @@
             <img src="alperen.png" alt="alperen" style="width:23%" align="left">
             <br></br>
             <h2>&nbsp;alperen</h2>
-            <a href="index.html" class="navbar"><h6>&nbsp;Ana Sayfa</h6></a>
+            <a href="../index.html" class="navbar"><h6>&nbsp;Ana Sayfa</h6></a>
             <h6 class="navbar"> | </h6>
-            <a href="benkimim.html" class="navbar"><h6>Ben Kimim?</h6></a>
+            <a href="../benkimim.html" class="navbar"><h6>Ben Kimim?</h6></a>
             <h6 class="navbar"> | </h6>
             <a href="linkler.html" class="navbar"><h6>Yararlı Linkler</h6></a>
             <br></br>
-            <p>Hey, ben Alperen. Blogumda öğrendiğim, öğretmek istediğim siber güvenlik ve yazılım ile ilgili yazılarımı paylaşmaktayım.</p>
-            <p>Sosyal medya hesaplarım&nbsp;&nbsp;
-            <a href="https://twitter.com/alperenkeskk">
-            <img border="0" alt="twitter" src="twitter.png" width=4%>&nbsp;&nbsp;
-            <a href="https://www.linkedin.com/in/alperen-keskin-873b44138/">
-            <img border="0" alt="linkedin" src="linkedin.png" width=4%>&nbsp;&nbsp;
-            <a href="https://github.com/alperenkesk">
-            <img border="0" alt="github" src="github.png" width=4%></a>
-            </p>
-
             <br>
-            <h3>Yazılar</h3>
-            <em class="navbar">&nbsp;06-09-2020</em><a href="posts/pythonintegerdilimleme.html" class="navbar"><p>Python ile Integer Veri Dilimleme</p></a><br>
-            <em class="navbar">&nbsp;17-07-2020</em><a href="posts/aireplayngdos.html" class="navbar"><p>Aireplay-ng ile Kablosuz Ağlara DOS Saldırısı</p></a><br>
-            <em class="navbar">&nbsp;03-07-2020</em><a href="posts/bughuntergithub.html" class="navbar"><p>Bug Hunterlar İçin Github</p></a>
-        </section>
-        <div class="projects">
-          <br></br>
-          <h4>Projeler</h4>
-          <em class="navbar">&nbsp;29-08-2020</em><a href="https://github.com/alperenkesk/tckimliknouretici" class="navbar"><p>TC Kimlik No Uretici</p></a><br>
-          <em class="navbar">&nbsp;15-07-2020</em><a href="https://github.com/alperenkesk/ctflearn" class="navbar"><p>ctflearn</p></a><br>
-          <em class="navbar">&nbsp;03-07-2020</em><a href="https://github.com/alperenkesk/my-website" class="navbar"><p>my-website</p></a><br>
-          <em class="navbar">&nbsp;03-07-2020</em><a href="https://github.com/alperenkesk/youtube-views-bot" class="navbar"><p>youtube-views-bot</p></a><br>
-        </div>
+            <h4 align="center"><b>Python ile Integer Veri Dilimleme</b></h4><br></br>
+            <p>Python ile TC Kimlik No üretir uygulamamda integer veri dilimlemem gerekiyordu
+                çünkü TC Kimlik No algoritmasında 11 tane rakamın ilk 10 tanesinin toplamının birler basamağı, 11. rakama eşit olması gerekmekteydim. 
+            </p>
+            <p>String veriyi dilimlemeyi biliyordum. Ben de düşündüm ki integer veriyi string veriye dönüştürürsem sonra
+               istediğim kadar dilimleyip tekrar integer değere dönüştürebilirdim.
+            </p>
+            <p>Ve oldu:)</p>
+            <br><h6><b>String Veri Dilimleme</b></h6></br>
+            <pre>
+                sayi=12
+                sayi[1:2]          # Birler basamağını gösterir
+            </pre>
+            <br><h6><b>Integer Veri Dilimleme</b></h6></br>
+            <pre>
+                sayi=12
+                inttostr = str(sayi)
+                sonbasamak=inttostr[1:2]
+                strtoint=int(sonbasamak)
+            </pre>
+            <br><h6><b>Kısa Yol</b></h6></br>
+            <pre>
+                sayi=12 
+                sayi % 10  
+            </pre>
+        <p>Kaynaklar</p>
+     
+        <a href="https://careerkarma.com/blog/python-string-to-int/" class="navbar"><p>Python String to Integer</p></a><br>
+      
+
     </div>
 
 <!-- JS, Popper.js, and jQuery -->

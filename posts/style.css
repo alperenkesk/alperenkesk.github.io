@@ -19,7 +19,7 @@ h4 {
 h6 {
     color: rgb(136, 180, 198);
 }
-p, li, span {
+p, li, span, pre {
     color: rgb(201, 202, 204);
 }
 
