@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zafiyet on Alperen Keskin</title>
+    <link>https://alperenkesk.github.io/tags/zafiyet/</link>
+    <description>Recent content in Zafiyet on Alperen Keskin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <lastBuildDate>Sun, 15 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://alperenkesk.github.io/tags/zafiyet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nuclei ile Zafiyet Tespiti</title>
+      <link>https://alperenkesk.github.io/posts/nuclei-zafiyet/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperenkesk.github.io/posts/nuclei-zafiyet/</guid>
+      
+      <description>&lt;h1 id=&#34;nuclei-ile-zafiyet-tespiti&#34;&gt;Nuclei ile Zafiyet Tespiti&lt;/h1&gt;
+&lt;p&gt;Nuclei, ProjectDiscovery ekibi tarafından geliştirilen, güvenlik açığı taraması, keşif ve penetrasyon testlerini otomatikleştiren güçlü bir açık kaynak aracıdır. Go diliyle yazılan bu araç, TCP, DNS, HTTP gibi farklı protokoller üzerinden hızlı ve esnek zafiyet taramaları yapabilir. Özelleştirilebilir yapısı sayesinde hem geliştiriciler hem de güvenlik araştırmacıları için popülerdir.&lt;/p&gt;
+&lt;p&gt;Nuclei&amp;rsquo;nin en büyük avantajlarından biri, sürekli güncellenen zafiyet şablonlarıyla yaygın güvenlik açıklarını hızlıca tespit edebilmesidir. Ayrıca, diğer güvenlik araçlarıyla entegrasyon sağlayarak otomatik güvenlik testlerini iş akışlarına dahil etmek isteyenler için ideal bir çözüm sunar.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,87 @@
+title = "Alperen Keskin"
+baseURL = 'https://alperenkesk.github.io/'
+
+languageCode = 'tr'
+defaultContentLanguage = "tr"
+enableEmoji = true
+ignoreErrors = ["additional-script-loading-error"]
+theme = "hugo-blog-awesome"
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-2JM75S6REN'
+  [services.disqus]
+    shortname = ''
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+[Languages.tr]
+  languageName = "Türkçe"
+  languageCode = "tr"
+  contentDir = "content/tr"
+  weight = 1
+
+  [Languages.tr.menu]
+  [[Languages.tr.menu.main]]
+    pageRef = "/"
+    name = "Anasayfa"
+    url = "/"
+    weight = 10
+
+  [[Languages.tr.menu.main]]
+    pageRef = "posts"
+    name = "Yazılar"
+    url = "/posts/"
+    weight = 20
+
+  [[Languages.tr.menu.main]]
+    pageRef = "about"
+    name = "Hakkımda"
+    url = "/about/"
+    weight = 30
+
+  [Languages.tr.params]
+    sitename = "Alperen Keskin Blog"
+    defaultColor = "dark"
+    description = "Siber Güvenlik ve yazılım blogu"
+    mainSections = ["posts"]
+    toc = true
+    tocOpen = false
+    goToTop = true
+    additionalScripts = ["js/custom.js", "js/custom-2.js"]
+    dateFormat = "02 Jan 2006"
+    rssFeedDescription = "summary"
+
+    [Languages.tr.params.author]
+      avatar = "alperen.png"
+      intro = "Alperen Keskin"
+      name = "Alperen Keskin"
+      description = "Merhaba, ben Alperen. Siber güvenlik ve yazılım üzerine öğrendiklerimi burada paylaşıyorum. Amacım, bu alanlarda faydalı ve anlaşılır içerikler sunmaktır."
+
+    [Languages.tr.params.webmanifest]
+      name = "sitename"
+      short_name = "sitename"
+      start_url = "/"
+      theme_color = "#434648"
+      background_color = "#fff"
+      display = "standalone"
+
+    [[Languages.tr.params.socialIcons]]
+    name = "github"
+    url = "https://github.com/alperenkesk"
+
+    [[Languages.tr.params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com"
+
+    [[Languages.tr.params.socialIcons]]
+    name = "Rss"
+    url = "/index.xml"
