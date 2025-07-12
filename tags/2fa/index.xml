@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2FA on Alperen Keskin</title>
+    <link>http://localhost:1313/tags/2fa/</link>
+    <description>Recent content in 2FA on Alperen Keskin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/2fa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2FA Bypass Teknikleri</title>
+      <link>http://localhost:1313/posts/pentest-teknikleri/2fa-bypass-teknikleri/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/pentest-teknikleri/2fa-bypass-teknikleri/</guid>
+      
+      <description>&lt;p&gt;Penetrasyon testleri ve bug bounty sırasında en sık karşılaştığım güvenlik önlemlerinden biri 2FA, yani iki faktörlü kimlik doğrulama. Güzel bir güvenlik katmanı ama yanlış ya da eksik uygulandığında aşılması da bir o kadar mümkün hale geliyor. Bu yazıda, pratikte karşılaştığım veya testlerde denediğim bazı 2FA atlatma yöntemlerini paylaşmak istiyorum.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;1-response-manipulation-yanıt-manipülasyonu&#34;&gt;1. Response Manipulation (Yanıt Manipülasyonu)&lt;/h3&gt;
+&lt;p&gt;Bazen uygulama sunucusundan dönen yanıt, istemci tarafında kontrolsüz şekilde yorumlanıyor. Örneğin:&lt;/p&gt;
+&lt;p&gt;Orijinal Yanıt:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;success&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;message&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Authentication failed&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Bu yanıtı intercept edip şöyle değiştirdiğinizde:&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
