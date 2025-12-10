@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Alperen Keskin</title>
+    <link>https://alperenkesk.github.io/pages/</link>
+    <description>Recent content in Pages on Alperen Keskin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language><atom:link href="https://alperenkesk.github.io/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hakkımda</title>
+      <link>https://alperenkesk.github.io/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperenkesk.github.io/pages/about/</guid>
+      
+      <description>&lt;p&gt;Merhaba, ben &lt;strong&gt;Alperen Keskin&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Ofansif güvenlik alanında uzman bir &lt;strong&gt;Siber Güvenlik Uzmanı&lt;/strong&gt;yım. Web, Mobil, Ağ ve Active Directory ortamlarında saldırgan bakış açısıyla sızma testleri gerçekleştiriyorum. Ayrıca SOC operasyonları ve olay müdahalesi süreçlerinde bilgiye sahibim.&lt;/p&gt;
+&lt;h3 id=&#34;-deneyim&#34;&gt;💼 Deneyim&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Siber Güvenlik Uzmanı&lt;/strong&gt; – T.C. Hazine ve Maliye Bakanlığı
+&lt;em&gt;Aralık 2025 – Halen&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Siber Güvenlik Uzmanı&lt;/strong&gt; – RSU Bilisim ve Danışmanlık Hizmetleri A.Ş.
+&lt;em&gt;Eylül 2024 – Kasım 2025&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-yetkinlikler&#34;&gt;🛠️ Yetkinlikler&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Web Application Pentest&lt;/li&gt;
+&lt;li&gt;Mobile Application Pentest&lt;/li&gt;
+&lt;li&gt;Network Pentest&lt;/li&gt;
+&lt;li&gt;API Pentest&lt;/li&gt;
+&lt;li&gt;SOC Operations &amp;amp; Incident Response&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-sertifikalar&#34;&gt;📜 Sertifikalar&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;eWPTX&lt;/strong&gt; – Web Application Penetration Tester eXtreme (INE)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;eMAPT&lt;/strong&gt; – Mobile Application Penetration Tester (INE)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;API Penetration Testing&lt;/strong&gt; – APIsec University&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
