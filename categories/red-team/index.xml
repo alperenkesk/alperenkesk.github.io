@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Red Team on Alperen Keskin</title>
+    <link>https://alperenkesk.github.io/categories/red-team/</link>
+    <description>Recent content in Red Team on Alperen Keskin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <lastBuildDate>Tue, 09 Dec 2025 15:00:00 +0300</lastBuildDate><atom:link href="https://alperenkesk.github.io/categories/red-team/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JWT Saldırı Teknikleri</title>
+      <link>https://alperenkesk.github.io/posts/jwt-saldirilari/</link>
+      <pubDate>Tue, 09 Dec 2025 15:00:00 +0300</pubDate>
+      
+      <guid>https://alperenkesk.github.io/posts/jwt-saldirilari/</guid>
+      
+      <description>&lt;p&gt;JSON Web Token (JWT), modern web uygulamalarında kimlik doğrulama ve yetkilendirme için kullanılan, stateless ve taşınabilir bir standarttır. Doğru yapılandırıldığında etkili bir kimlik doğrulama mekanizması sunar; ancak yanlış uygulandığında kritik güvenlik açıklarına yol açabilir.&lt;/p&gt;
+&lt;p&gt;Bu yazıda JWT’nin temel yapısını, algoritmalarını ve gerçek dünyada pentester’lar tarafından en çok kullanılan saldırı tekniklerini ayrıntılarıyla ele alıyoruz.&lt;/p&gt;
+&lt;h2 id=&#34;1-jwt-nedir--temel-yapı-ve-mantık&#34;&gt;1. JWT Nedir? – Temel Yapı ve Mantık&lt;/h2&gt;
+&lt;p&gt;JWT, kimliği doğrulanmış kullanıcıya sunucu tarafından verilen imzalı bir kimlik tokenıdır. “Stateless” olduğundan, kullanıcı her istekte token’ı header içinde taşır:&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
