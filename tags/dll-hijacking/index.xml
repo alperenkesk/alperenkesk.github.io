@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DLL Hijacking on Alperen Keskin</title>
+    <link>https://alperenkesk.github.io/tags/dll-hijacking/</link>
+    <description>Recent content in DLL Hijacking on Alperen Keskin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <lastBuildDate>Sun, 25 Jan 2026 15:00:00 +0300</lastBuildDate><atom:link href="https://alperenkesk.github.io/tags/dll-hijacking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thick Client Güvenliği: DLL Hijacking</title>
+      <link>https://alperenkesk.github.io/posts/pentest-teknikleri/dll-hijacking/</link>
+      <pubDate>Sun, 25 Jan 2026 15:00:00 +0300</pubDate>
+      
+      <guid>https://alperenkesk.github.io/posts/pentest-teknikleri/dll-hijacking/</guid>
+      
+      <description>&lt;p&gt;Modern Windows uygulamaları, fonksiyonelliklerini modüler hale getirmek için &lt;strong&gt;Dynamic Link Library (DLL)&lt;/strong&gt; dosyalarına güvenir. Ancak bu güven ilişkisi, uygulamanın kütüphaneyi arama ve yükleme sürecindeki mantıksal hatalarla birleştiğinde, Red Team operasyonları için kritik bir &lt;strong&gt;DLL Hijacking&lt;/strong&gt; vektörüne dönüşür.&lt;/p&gt;
+&lt;p&gt;Bu yazıda, DLL Hijacking mekanizmasının anatomisini, Windows&amp;rsquo;un kütüphane arama hiyerarşisini ve bu zafiyetin tespit-doğrulama-exploit döngüsünü teknik ayrıntılarıyla ele alıyoruz.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-dll-hijacking-nedir&#34;&gt;1. DLL Hijacking Nedir?&lt;/h2&gt;
+&lt;p&gt;DLL Hijacking, bir uygulamanın ihtiyaç duyduğu meşru bir kütüphaneyi (.dll) ararken izlediği yol üzerindeki bir boşluğa, saldırganın zararlı bir dosyayı yerleştirmesi işlemidir. Uygulama, kütüphanenin tam yolunu (&lt;strong&gt;absolute path&lt;/strong&gt;) bilmediği durumlarda Windows Loader&amp;rsquo;ın arama algoritmasına güvenir.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
