@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Alperen Keskin</title>
+    <link>https://alperenkesk.github.io/tags/</link>
+    <description>Recent content in Tags on Alperen Keskin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <lastBuildDate>Sun, 25 Jan 2026 15:00:00 +0300</lastBuildDate><atom:link href="https://alperenkesk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DLL Hijacking</title>
+      <link>https://alperenkesk.github.io/tags/dll-hijacking/</link>
+      <pubDate>Sun, 25 Jan 2026 15:00:00 +0300</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/dll-hijacking/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Pentest</title>
+      <link>https://alperenkesk.github.io/tags/pentest/</link>
+      <pubDate>Sun, 25 Jan 2026 15:00:00 +0300</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/pentest/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Red Team</title>
+      <link>https://alperenkesk.github.io/tags/red-team/</link>
+      <pubDate>Sun, 25 Jan 2026 15:00:00 +0300</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/red-team/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Thick Client</title>
+      <link>https://alperenkesk.github.io/tags/thick-client/</link>
+      <pubDate>Sun, 25 Jan 2026 15:00:00 +0300</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/thick-client/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Windows Security</title>
+      <link>https://alperenkesk.github.io/tags/windows-security/</link>
+      <pubDate>Sun, 25 Jan 2026 15:00:00 +0300</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/windows-security/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Bug-Bounty</title>
+      <link>https://alperenkesk.github.io/tags/bug-bounty/</link>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/bug-bounty/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Jwt</title>
+      <link>https://alperenkesk.github.io/tags/jwt/</link>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/jwt/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Siber Güvenlik</title>
+      <link>https://alperenkesk.github.io/tags/siber-g%C3%BCvenlik/</link>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/siber-g%C3%BCvenlik/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Web-Güvenliği</title>
+      <link>https://alperenkesk.github.io/tags/web-g%C3%BCvenli%C4%9Fi/</link>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/web-g%C3%BCvenli%C4%9Fi/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>2FA</title>
+      <link>https://alperenkesk.github.io/tags/2fa/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/2fa/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Bypass</title>
+      <link>https://alperenkesk.github.io/tags/bypass/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/bypass/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Iot</title>
+      <link>https://alperenkesk.github.io/tags/iot/</link>
+      <pubDate>Mon, 23 Jun 2025 21:00:00 +0300</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/iot/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Kamera Güvenliği</title>
+      <link>https://alperenkesk.github.io/tags/kamera-g%C3%BCvenli%C4%9Fi/</link>
+      <pubDate>Mon, 23 Jun 2025 21:00:00 +0300</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/kamera-g%C3%BCvenli%C4%9Fi/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Rce</title>
+      <link>https://alperenkesk.github.io/tags/rce/</link>
+      <pubDate>Mon, 23 Jun 2025 21:00:00 +0300</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/rce/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Zafiyet Analizi</title>
+      <link>https://alperenkesk.github.io/tags/zafiyet-analizi/</link>
+      <pubDate>Mon, 23 Jun 2025 21:00:00 +0300</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/zafiyet-analizi/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Nuclei</title>
+      <link>https://alperenkesk.github.io/tags/nuclei/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/nuclei/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Otomasyon</title>
+      <link>https://alperenkesk.github.io/tags/otomasyon/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/otomasyon/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Zafiyet</title>
+      <link>https://alperenkesk.github.io/tags/zafiyet/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/zafiyet/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Aireplay-Ng</title>
+      <link>https://alperenkesk.github.io/tags/aireplay-ng/</link>
+      <pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/aireplay-ng/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Dos Saldırısı</title>
+      <link>https://alperenkesk.github.io/tags/dos-sald%C4%B1r%C4%B1s%C4%B1/</link>
+      <pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/dos-sald%C4%B1r%C4%B1s%C4%B1/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Kablosuz Ağ</title>
+      <link>https://alperenkesk.github.io/tags/kablosuz-a%C4%9F/</link>
+      <pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/kablosuz-a%C4%9F/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Penetrasyon Testi</title>
+      <link>https://alperenkesk.github.io/tags/penetrasyon-testi/</link>
+      <pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperenkesk.github.io/tags/penetrasyon-testi/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
