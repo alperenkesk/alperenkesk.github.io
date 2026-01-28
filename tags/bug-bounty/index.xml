@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bug Bounty on Alperen Keskin</title>
+    <title>Bug-Bounty on Alperen Keskin</title>
     <link>https://alperenkeskin.com/tags/bug-bounty/</link>
-    <description>Recent content in Bug Bounty on Alperen Keskin</description>
+    <description>Recent content in Bug-Bounty on Alperen Keskin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://alperenkeskin.com/tags/bug-bounty/index.xml" rel="self" type="application/rss+xml" />
