@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Alperen Keskin</title>
-    <link>https://alperenkesk.github.io/pages/</link>
+    <link>https://alperenkeskin.com/pages/</link>
     <description>Recent content in Pages on Alperen Keskin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tr</language><atom:link href="https://alperenkesk.github.io/pages/index.xml" rel="self" type="application/rss+xml" />
+    <language>tr</language><atom:link href="https://alperenkeskin.com/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hakkımda</title>
-      <link>https://alperenkesk.github.io/pages/about/</link>
+      <link>https://alperenkeskin.com/pages/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alperenkesk.github.io/pages/about/</guid>
+      <guid>https://alperenkeskin.com/pages/about/</guid>
       
       <description>&lt;p&gt;Merhaba, ben &lt;strong&gt;Alperen Keskin&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Ofansif güvenlik alanında uzman bir &lt;strong&gt;Siber Güvenlik Uzmanı&lt;/strong&gt;yım. Web, Mobil, Ağ ve Active Directory ortamlarında saldırgan bakış açısıyla sızma testleri gerçekleştiriyorum. Ayrıca SOC operasyonları ve olay müdahalesi süreçlerinde bilgiye sahibim.&lt;/p&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Alperen Keskin</title>
-    <link>https://alperenkesk.github.io/categories/blog/</link>
+    <link>https://alperenkeskin.com/categories/blog/</link>
     <description>Recent content in Blog on Alperen Keskin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
-    <lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://alperenkesk.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://alperenkeskin.com/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2FA Bypass Teknikleri</title>
-      <link>https://alperenkesk.github.io/posts/pentest-teknikleri/2fa-bypass-teknikleri/</link>
+      <link>https://alperenkeskin.com/posts/pentest-teknikleri/2fa-bypass-teknikleri/</link>
       <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://alperenkesk.github.io/posts/pentest-teknikleri/2fa-bypass-teknikleri/</guid>
+      <guid>https://alperenkeskin.com/posts/pentest-teknikleri/2fa-bypass-teknikleri/</guid>
       
       <description>&lt;p&gt;Penetrasyon testleri ve bug bounty sırasında en sık karşılaştığım güvenlik önlemlerinden biri 2FA, yani iki faktörlü kimlik doğrulama. Güzel bir güvenlik katmanı ama yanlış ya da eksik uygulandığında aşılması da bir o kadar mümkün hale geliyor. Bu yazıda, pratikte karşılaştığım veya testlerde denediğim bazı 2FA atlatma yöntemlerini paylaşmak istiyorum.&lt;/p&gt;
 &lt;hr&gt;

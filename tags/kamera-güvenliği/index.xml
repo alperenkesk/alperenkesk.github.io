@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kamera Güvenliği on Alperen Keskin</title>
-    <link>https://alperenkesk.github.io/tags/kamera-g%C3%BCvenli%C4%9Fi/</link>
+    <link>https://alperenkeskin.com/tags/kamera-g%C3%BCvenli%C4%9Fi/</link>
     <description>Recent content in Kamera Güvenliği on Alperen Keskin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
-    <lastBuildDate>Mon, 23 Jun 2025 21:00:00 +0300</lastBuildDate><atom:link href="https://alperenkesk.github.io/tags/kamera-g%C3%BCvenli%C4%9Fi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jun 2025 21:00:00 +0300</lastBuildDate><atom:link href="https://alperenkeskin.com/tags/kamera-g%C3%BCvenli%C4%9Fi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yi IoT Güvenlik Kameralarında Uzaktan Kod Çalıştırma (RCE) Zafiyeti Analizi</title>
-      <link>https://alperenkesk.github.io/posts/iot-hacking/yi-iot-rce-zafiyet-analizi/</link>
+      <link>https://alperenkeskin.com/posts/iot-hacking/yi-iot-rce-zafiyet-analizi/</link>
       <pubDate>Mon, 23 Jun 2025 21:00:00 +0300</pubDate>
       
-      <guid>https://alperenkesk.github.io/posts/iot-hacking/yi-iot-rce-zafiyet-analizi/</guid>
+      <guid>https://alperenkeskin.com/posts/iot-hacking/yi-iot-rce-zafiyet-analizi/</guid>
       
       <description>&lt;h2 id=&#34;yi-iot-güvenlik-kameralarında-uzaktan-kod-çalıştırma-rce-zafiyeti&#34;&gt;Yi IoT Güvenlik Kameralarında Uzaktan Kod Çalıştırma (RCE) Zafiyeti&lt;/h2&gt;
 &lt;p&gt;Akıllı ev sistemlerinde kullanılan güvenlik kameraları, evimizi daha güvenli hale getirmek için tasarlansa da bazen bu cihazlar kendileri ciddi bir güvenlik riski haline gelebiliyor. Bu yazıda, Yi IoT marka IP kameralarında tespit edilen ve GitHub’da &lt;a href=&#34;https://github.com/Yasha-ops/RCE-YiIOT&#34;&gt;Yasha-ops&lt;/a&gt; tarafından yayımlanan bir &lt;strong&gt;uzaktan kod çalıştırma (RCE)&lt;/strong&gt; zafiyetini inceleyeceğiz.&lt;/p&gt;

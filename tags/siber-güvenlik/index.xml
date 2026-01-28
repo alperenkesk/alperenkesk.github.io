@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Siber Güvenlik on Alperen Keskin</title>
-    <link>https://alperenkesk.github.io/tags/siber-g%C3%BCvenlik/</link>
-    <description>Recent content in Siber Güvenlik on Alperen Keskin</description>
+    <title>Siber-Güvenlik on Alperen Keskin</title>
+    <link>https://alperenkeskin.com/tags/siber-g%C3%BCvenlik/</link>
+    <description>Recent content in Siber-Güvenlik on Alperen Keskin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
-    <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://alperenkesk.github.io/tags/siber-g%C3%BCvenlik/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://alperenkeskin.com/tags/siber-g%C3%BCvenlik/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JWT Saldırı Teknikleri</title>
-      <link>https://alperenkesk.github.io/posts/pentest-teknikleri/jwt-saldirilari/</link>
+      <link>https://alperenkeskin.com/posts/pentest-teknikleri/jwt-saldirilari/</link>
       <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://alperenkesk.github.io/posts/pentest-teknikleri/jwt-saldirilari/</guid>
+      <guid>https://alperenkeskin.com/posts/pentest-teknikleri/jwt-saldirilari/</guid>
       
       <description>&lt;p&gt;Bu yazıda JWT’nin temel yapısını, algoritmalarını ve gerçek dünyada pentester’lar tarafından en çok kullanılan saldırı tekniklerini ayrıntılarıyla ele alıyoruz.&lt;/p&gt;
 &lt;p&gt;JSON Web Token (JWT), modern web uygulamalarında kimlik doğrulama ve yetkilendirme için kullanılan, stateless ve taşınabilir bir standarttır. Doğru yapılandırıldığında etkili bir kimlik doğrulama mekanizması sunar ama yanlış uygulandığında kritik güvenlik açıklarına yol açabilir.&lt;/p&gt;
@@ -23,10 +23,10 @@
     
     <item>
       <title>2FA Bypass Teknikleri</title>
-      <link>https://alperenkesk.github.io/posts/pentest-teknikleri/2fa-bypass-teknikleri/</link>
+      <link>https://alperenkeskin.com/posts/pentest-teknikleri/2fa-bypass-teknikleri/</link>
       <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://alperenkesk.github.io/posts/pentest-teknikleri/2fa-bypass-teknikleri/</guid>
+      <guid>https://alperenkeskin.com/posts/pentest-teknikleri/2fa-bypass-teknikleri/</guid>
       
       <description>&lt;p&gt;Penetrasyon testleri ve bug bounty sırasında en sık karşılaştığım güvenlik önlemlerinden biri 2FA, yani iki faktörlü kimlik doğrulama. Güzel bir güvenlik katmanı ama yanlış ya da eksik uygulandığında aşılması da bir o kadar mümkün hale geliyor. Bu yazıda, pratikte karşılaştığım veya testlerde denediğim bazı 2FA atlatma yöntemlerini paylaşmak istiyorum.&lt;/p&gt;
 &lt;hr&gt;
@@ -43,10 +43,10 @@
     
     <item>
       <title>Yi IoT Güvenlik Kameralarında Uzaktan Kod Çalıştırma (RCE) Zafiyeti Analizi</title>
-      <link>https://alperenkesk.github.io/posts/iot-hacking/yi-iot-rce-zafiyet-analizi/</link>
+      <link>https://alperenkeskin.com/posts/iot-hacking/yi-iot-rce-zafiyet-analizi/</link>
       <pubDate>Mon, 23 Jun 2025 21:00:00 +0300</pubDate>
       
-      <guid>https://alperenkesk.github.io/posts/iot-hacking/yi-iot-rce-zafiyet-analizi/</guid>
+      <guid>https://alperenkeskin.com/posts/iot-hacking/yi-iot-rce-zafiyet-analizi/</guid>
       
       <description>&lt;h2 id=&#34;yi-iot-güvenlik-kameralarında-uzaktan-kod-çalıştırma-rce-zafiyeti&#34;&gt;Yi IoT Güvenlik Kameralarında Uzaktan Kod Çalıştırma (RCE) Zafiyeti&lt;/h2&gt;
 &lt;p&gt;Akıllı ev sistemlerinde kullanılan güvenlik kameraları, evimizi daha güvenli hale getirmek için tasarlansa da bazen bu cihazlar kendileri ciddi bir güvenlik riski haline gelebiliyor. Bu yazıda, Yi IoT marka IP kameralarında tespit edilen ve GitHub’da &lt;a href=&#34;https://github.com/Yasha-ops/RCE-YiIOT&#34;&gt;Yasha-ops&lt;/a&gt; tarafından yayımlanan bir &lt;strong&gt;uzaktan kod çalıştırma (RCE)&lt;/strong&gt; zafiyetini inceleyeceğiz.&lt;/p&gt;
@@ -58,10 +58,10 @@
     
     <item>
       <title>Nuclei ile Zafiyet Tespiti</title>
-      <link>https://alperenkesk.github.io/posts/nuclei-zafiyet/</link>
+      <link>https://alperenkeskin.com/posts/nuclei-zafiyet/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://alperenkesk.github.io/posts/nuclei-zafiyet/</guid>
+      <guid>https://alperenkeskin.com/posts/nuclei-zafiyet/</guid>
       
       <description>&lt;h1 id=&#34;nuclei-ile-zafiyet-tespiti&#34;&gt;Nuclei ile Zafiyet Tespiti&lt;/h1&gt;
 &lt;p&gt;Nuclei, ProjectDiscovery ekibi tarafından geliştirilen, güvenlik açığı taraması, keşif ve penetrasyon testlerini otomatikleştiren güçlü bir açık kaynak aracıdır. Go diliyle yazılan bu araç, TCP, DNS, HTTP gibi farklı protokoller üzerinden hızlı ve esnek zafiyet taramaları yapabilir. Özelleştirilebilir yapısı sayesinde hem geliştiriciler hem de güvenlik araştırmacıları için popülerdir.&lt;/p&gt;

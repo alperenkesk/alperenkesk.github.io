@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Red Team on Alperen Keskin</title>
-    <link>https://alperenkesk.github.io/tags/red-team/</link>
+    <link>https://alperenkeskin.com/tags/red-team/</link>
     <description>Recent content in Red Team on Alperen Keskin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
-    <lastBuildDate>Sun, 25 Jan 2026 15:00:00 +0300</lastBuildDate><atom:link href="https://alperenkesk.github.io/tags/red-team/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jan 2026 15:00:00 +0300</lastBuildDate><atom:link href="https://alperenkeskin.com/tags/red-team/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thick Client Sızma Testi: DLL Hijacking</title>
-      <link>https://alperenkesk.github.io/posts/pentest-teknikleri/dll-hijacking/</link>
+      <link>https://alperenkeskin.com/posts/pentest-teknikleri/dll-hijacking/</link>
       <pubDate>Sun, 25 Jan 2026 15:00:00 +0300</pubDate>
       
-      <guid>https://alperenkesk.github.io/posts/pentest-teknikleri/dll-hijacking/</guid>
+      <guid>https://alperenkeskin.com/posts/pentest-teknikleri/dll-hijacking/</guid>
       
       <description>&lt;p&gt;Modern Windows uygulamaları, fonksiyonelliklerini modüler hale getirmek için &lt;strong&gt;Dynamic Link Library (DLL)&lt;/strong&gt; dosyalarına güvenir. Ancak bu güven ilişkisi, kütüphane arama hiyerarşisindeki mantıksal hatalarla birleştiğinde Red Team operasyonlarında &lt;strong&gt;yetki yükseltme ve kalıcılık&lt;/strong&gt; sağlayan kritik bir &lt;strong&gt;DLL Hijacking zafiyetine&lt;/strong&gt; dönüşür.&lt;/p&gt;
 &lt;p&gt;Bu yazıda, DLL Hijacking zafiyetini, Windows’un kütüphane arama hiyerarşisini ve bu zafiyetin tespit-doğrulama-exploit sürecini teknik ayrıntılarıyla ele alıyoruz.&lt;/p&gt;
