@@ -53,7 +53,7 @@
         },
         "datePublished": "2026-03-06",
         "description": "",
-        "wordCount":  572 ,
+        "wordCount":  421 ,
         "mainEntityOfPage": "True",
         "dateModified": "2026-03-06",
         "image": {
@@ -220,9 +220,6 @@ stroke-linejoin="round" class="feather feather-home">
     <li><a href="#stage-mantığı">Stage Mantığı</a></li>
     <li><a href="#sezgisel-ilerleme-ve-pattern-recognition">Sezgisel İlerleme ve Pattern Recognition</a></li>
     <li><a href="#sınav-tricks">Sınav Tricks</a></li>
-    <li><a href="#stage-1-caseleri">Stage 1 Caseleri</a></li>
-    <li><a href="#stage-2-caseleri">Stage 2 Caseleri</a></li>
-    <li><a href="#stage-3-caseleri">Stage 3 Caseleri</a></li>
     <li><a href="#burp-suite-extensionları">Burp Suite Extensionları</a></li>
     <li><a href="#çalışma-kaynakları">Çalışma Kaynakları</a></li>
   </ul>
@@ -248,137 +245,140 @@ stroke-linejoin="round" class="feather feather-home">
 <ul>
 <li>SSRF&rsquo;de port <code>6566</code>&lsquo;yı dene</li>
 <li>HTTP Request Smuggling için HTTP Request Smuggler extension çalıştır</li>
-<li>Cache poisoning için isteği 10+ kez gönder, tek seferde cache zehirlenmeyebilir</li>
 <li>Filtrelenen path&rsquo;ler için URL encode kullan</li>
 <li>Her iki uygulamayı paralel çalıştır, birini beklerken diğerini tara</li>
 <li>Burp Scanner&rsquo;ı her input için çalıştır</li>
 </ul>
-<blockquote>
-<p>Bu listede yer alan caseler kişisel sınav deneyimim ve araştırmalarım doğrultusunda hazırlanmıştır, sınavın dinamik yapısı gereği farklılık gösterebilir.</p>
-</blockquote>
-<h2 id="stage-1-caseleri">Stage 1 Caseleri</h2>
+<p>Aşağıdaki listede yer alan caseler kişisel sınav deneyimim ve araştırmalarım doğrultusunda hazırlanmıştır, sınavın dinamik yapısı gereği farklılık gösterebilir.</p>
 <table>
   <thead>
       <tr>
           <th>Case</th>
-          <th>Trigger</th>
-          <th>Lab</th>
+          <th>Stage 1</th>
+          <th>Stage 2</th>
+          <th>Stage 3</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td>Host Header Poisoning</td>
-          <td>Forgot password sayfası mevcut</td>
-          <td><a href="https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-poisoning-via-middleware">Lab</a></td>
+          <td>Cross-Site Scripting (XSS)</td>
+          <td>✔</td>
+          <td>✔</td>
+          <td></td>
       </tr>
       <tr>
-          <td>Web Cache Poisoning</td>
-          <td>Cache header&rsquo;ları mevcut</td>
-          <td><a href="https://portswigger.net/web-security/web-cache-poisoning/exploiting-design-flaws/lab-web-cache-poisoning-with-an-unkeyed-header">Lab 1</a> <a href="https://portswigger.net/web-security/web-cache-poisoning/exploiting-design-flaws/lab-web-cache-poisoning-targeted-using-an-unknown-header">Lab 2</a></td>
-      </tr>
-      <tr>
-          <td>XSS</td>
-          <td>Yorum veya arama inputu mevcut</td>
-          <td><a href="https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-angularjs-expression">Lab 1</a> <a href="https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink-inside-select-element">Lab 2</a> <a href="https://portswigger.net/web-security/dom-based/controlling-the-web-message-source/lab-dom-xss-using-web-messages-and-json-parse">Lab 3</a> <a href="https://portswigger.net/web-security/dom-based/controlling-the-web-message-source/lab-dom-xss-using-web-messages-and-a-javascript-url">Lab 4</a> <a href="https://portswigger.net/web-security/dom-based/controlling-the-web-message-source/lab-dom-xss-using-web-messages">Lab 5</a> <a href="https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-dom-xss-reflected">Lab 6</a> <a href="https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-dom-xss-stored">Lab 7</a> <a href="https://portswigger.net/web-security/cross-site-scripting/contexts/lab-html-context-with-most-tags-and-attributes-blocked">Lab 8</a> <a href="https://portswigger.net/web-security/cross-site-scripting/contexts/lab-html-context-with-all-standard-tags-blocked">Lab 9</a></td>
+          <td>Authentication</td>
+          <td>✔</td>
+          <td>✔</td>
+          <td></td>
       </tr>
       <tr>
           <td>HTTP Request Smuggling</td>
-          <td>HTTP Request Smuggler extension çalıştır</td>
-          <td><a href="https://portswigger.net/web-security/request-smuggling/lab-obfuscating-te-header">Lab 1</a> <a href="https://portswigger.net/web-security/request-smuggling/exploiting/lab-bypass-front-end-controls-te-cl">Lab 2</a> <a href="https://portswigger.net/web-security/request-smuggling/exploiting/lab-bypass-front-end-controls-cl-te">Lab 3</a> <a href="https://portswigger.net/web-security/request-smuggling/exploiting/lab-capture-other-users-requests">Lab 4</a> <a href="https://portswigger.net/web-security/request-smuggling/exploiting/lab-deliver-reflected-xss">Lab 5</a></td>
-      </tr>
-      <tr>
-          <td>Bruteforce</td>
-          <td><a href="https://github.com/alperenkesk/BSCP-Cheat-Sheet">Cheat Sheet</a></td>
-          <td><a href="https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-different-responses">Lab 1</a> <a href="https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-subtly-different-responses">Lab 2</a></td>
-      </tr>
-  </tbody>
-</table>
-<h2 id="stage-2-caseleri">Stage 2 Caseleri</h2>
-<table>
-  <thead>
-      <tr>
-          <th>Case</th>
-          <th>Trigger</th>
-          <th>Lab</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>SQL Injection</td>
-          <td>Advanced Search sayfası veya TrackingId cookie</td>
-          <td><a href="https://portswigger.net/web-security/sql-injection/blind/lab-time-delays-info-retrieval">Lab 1</a> <a href="https://portswigger.net/web-security/sql-injection/blind/lab-conditional-responses">Lab 2</a> <a href="https://portswigger.net/web-security/sql-injection/blind/lab-out-of-band-data-exfiltration">Lab 3</a> <a href="https://portswigger.net/web-security/sql-injection/blind/lab-out-of-band">Lab 4</a> <a href="https://portswigger.net/web-security/sql-injection/blind/lab-sql-injection-visible-error-based">Lab 5</a> <a href="https://portswigger.net/web-security/sql-injection/examining-the-database/lab-listing-database-contents-non-oracle">Lab 6</a></td>
-      </tr>
-      <tr>
-          <td>IDOR</td>
-          <td>—</td>
-          <td><a href="https://portswigger.net/web-security/access-control/lab-user-role-can-be-modified-in-user-profile">Lab</a></td>
-      </tr>
-      <tr>
-          <td>CSRF</td>
-          <td>—</td>
-          <td><a href="https://portswigger.net/web-security/csrf/lab-no-defenses">Lab 1</a> <a href="https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-validation-depends-on-token-being-present">Lab 2</a> <a href="https://portswigger.net/web-security/csrf/bypassing-referer-based-defenses/lab-referer-validation-broken">Lab 3</a> <a href="https://portswigger.net/web-security/csrf/bypassing-referer-based-defenses/lab-referer-validation-depends-on-header-being-present">Lab 4</a></td>
+          <td>✔</td>
+          <td>✔</td>
+          <td></td>
       </tr>
       <tr>
           <td>CORS</td>
-          <td>Response&rsquo;da CORS izin veriyor</td>
-          <td><a href="https://portswigger.net/web-security/cors/lab-breaking-https-attack">Lab 1</a> <a href="https://portswigger.net/web-security/cors/lab-null-origin-whitelisted-attack">Lab 2</a></td>
+          <td>✔</td>
+          <td>✔</td>
+          <td></td>
       </tr>
       <tr>
           <td>JWT</td>
-          <td>Session token JWT formatında</td>
-          <td><a href="https://portswigger.net/web-security/jwt/lab-jwt-authentication-bypass-via-jwk-header-injection">Lab 1</a> <a href="https://portswigger.net/web-security/jwt/lab-jwt-authentication-bypass-via-kid-header-path-traversal">Lab 2</a> <a href="https://portswigger.net/web-security/jwt/lab-jwt-authentication-bypass-via-jku-header-injection">Lab 3</a></td>
-      </tr>
-  </tbody>
-</table>
-<h2 id="stage-3-caseleri">Stage 3 Caseleri</h2>
-<table>
-  <thead>
-      <tr>
-          <th>Case</th>
-          <th>Trigger</th>
-          <th>Lab</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Directory Traversal</td>
-          <td>—</td>
-          <td><a href="https://portswigger.net/web-security/file-path-traversal/lab-absolute-path-bypass">Lab 1</a> <a href="https://portswigger.net/web-security/file-path-traversal/lab-sequences-stripped-non-recursively">Lab 2</a> <a href="https://portswigger.net/web-security/file-path-traversal/lab-superfluous-url-decode">Lab 3</a> <a href="https://portswigger.net/web-security/file-path-traversal/lab-validate-start-of-path">Lab 4</a> <a href="https://portswigger.net/web-security/file-path-traversal/lab-validate-file-extension-null-byte-bypass">Lab 5</a></td>
+          <td>✔</td>
+          <td>✔</td>
+          <td></td>
       </tr>
       <tr>
-          <td>SSTI</td>
-          <td>—</td>
-          <td><a href="https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-basic">Lab 1</a> <a href="https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-basic-code-context">Lab 2</a> <a href="https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-with-information-disclosure-via-user-supplied-objects">Lab 3</a> <a href="https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-using-documentation">Lab 4</a> <a href="https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-in-an-unknown-language-with-a-documented-exploit">Lab 5</a></td>
+          <td>Web Cache Poisoning</td>
+          <td>✔</td>
+          <td>✔</td>
+          <td></td>
       </tr>
       <tr>
-          <td>Command Injection</td>
-          <td>—</td>
-          <td><a href="https://portswigger.net/web-security/os-command-injection/lab-blind-out-of-band-data-exfiltration">Lab 1</a> <a href="https://portswigger.net/web-security/os-command-injection/lab-blind-output-redirection">Lab 2</a></td>
+          <td>Host Header Attacks</td>
+          <td>✔</td>
+          <td>✔</td>
+          <td></td>
       </tr>
       <tr>
-          <td>SSRF</td>
-          <td>—</td>
-          <td><a href="https://portswigger.net/web-security/ssrf/lab-ssrf-with-blacklist-filter">Lab 1</a> <a href="https://portswigger.net/web-security/ssrf/lab-ssrf-filter-bypass-via-open-redirection">Lab 2</a></td>
+          <td>DOM-Based Vulnerabilities</td>
+          <td>✔</td>
+          <td>✔</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>CSRF</td>
+          <td>✔</td>
+          <td>✔</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Clickjacking</td>
+          <td>✔</td>
+          <td>✔</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Access Control</td>
+          <td>✔</td>
+          <td>✔</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>OAuth</td>
+          <td>✔</td>
+          <td>✔</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>SQL Injection</td>
+          <td></td>
+          <td>✔</td>
+          <td>✔</td>
       </tr>
       <tr>
           <td>XXE</td>
-          <td>Admin panelde XML upload mevcut</td>
-          <td><a href="https://portswigger.net/web-security/xxe/blind/lab-xxe-with-out-of-band-exfiltration">Lab 1</a> <a href="https://portswigger.net/web-security/xxe/blind/lab-xxe-with-data-retrieval-via-error-messages">Lab 2</a> <a href="https://portswigger.net/web-security/xxe/lab-xinclude-attack">Lab 3</a></td>
+          <td></td>
+          <td></td>
+          <td>✔</td>
       </tr>
       <tr>
-          <td>SSRF + RFI</td>
-          <td>—</td>
-          <td><a href="https://portswigger.net/web-security/host-header/exploiting/lab-host-header-ssrf-via-flawed-request-parsing">Lab</a></td>
+          <td>SSRF</td>
+          <td></td>
+          <td></td>
+          <td>✔</td>
+      </tr>
+      <tr>
+          <td>OS Command Injection</td>
+          <td></td>
+          <td></td>
+          <td>✔</td>
+      </tr>
+      <tr>
+          <td>SSTI</td>
+          <td></td>
+          <td></td>
+          <td>✔</td>
+      </tr>
+      <tr>
+          <td>Directory Traversal</td>
+          <td></td>
+          <td></td>
+          <td>✔</td>
       </tr>
       <tr>
           <td>File Upload</td>
-          <td>—</td>
-          <td><a href="https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-path-traversal">Lab 1</a> <a href="https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-obfuscated-file-extension">Lab 2</a> <a href="https://portswigger.net/web-security/file-upload/lab-file-upload-remote-code-execution-via-polyglot-web-shell-upload">Lab 3</a> <a href="https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-extension-blacklist-bypass">Lab 4</a> <a href="https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-content-type-restriction-bypass">Lab 5</a></td>
+          <td></td>
+          <td></td>
+          <td>✔</td>
       </tr>
       <tr>
-          <td>Deserialization</td>
-          <td>Burp Scanner buldu</td>
-          <td><a href="https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-arbitrary-object-injection-in-php">Lab 1</a> <a href="https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-exploiting-java-deserialization-with-apache-commons">Lab 2</a> <a href="https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-exploiting-php-deserialization-with-a-pre-built-gadget-chain">Lab 3</a></td>
+          <td>Insecure Deserialization</td>
+          <td></td>
+          <td></td>
+          <td>✔</td>
       </tr>
   </tbody>
 </table>
