@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="tr"><head><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Burp Suite Certified Practitioner (BSCP) - Sınav Rehberi | Alperen Keskin</title>
+<meta property="og:title" content="Burp Suite Certified Practitioner (BSCP) - Sınav Rehberi | Alperen Keskin" />
+<meta name="twitter:title" content="Burp Suite Certified Practitioner (BSCP) - Sınav Rehberi | Alperen Keskin" />
+<meta itemprop="name" content="Burp Suite Certified Practitioner (BSCP) - Sınav Rehberi | Alperen Keskin" />
+<meta name="application-name" content="Burp Suite Certified Practitioner (BSCP) - Sınav Rehberi | Alperen Keskin" />
+<meta property="og:site_name" content="Alperen Keskin Blog" />
+
+<meta name="description" content="Siber Güvenlik ve yazılım blogu">
+<meta itemprop="description" content="Siber Güvenlik ve yazılım blogu" />
+<meta property="og:description" content="Siber Güvenlik ve yazılım blogu" />
+<meta name="twitter:description" content="Siber Güvenlik ve yazılım blogu" />
+
+<meta property="og:locale" content="tr" />
+<meta name="language" content="tr" />
+
+  <link rel="alternate" hreflang="tr" href="https://alperenkeskin.com/posts/bscp/bscp-sinav-rehberi/" title="Türkçe" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2026-03-06T00:00:00Z />
+    <meta property="article:published_time" content=2026-03-06T00:00:00Z />
+    <meta property="og:url" content="https://alperenkeskin.com/posts/bscp/bscp-sinav-rehberi/" />
+
+    
+    <meta property="og:article:author" content="Alperen Keskin" />
+    <meta property="article:author" content="Alperen Keskin" />
+    <meta name="author" content="Alperen Keskin" />
+    
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Burp Suite Certified Practitioner (BSCP) - Sınav Rehberi",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2026-03-06",
+        "description": "",
+        "wordCount":  572 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2026-03-06",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Alperen Keskin"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.154.0">
+
+    
+    <meta property="og:url" content="https://alperenkeskin.com/posts/bscp/bscp-sinav-rehberi/">
+  <meta property="og:site_name" content="Alperen Keskin">
+  <meta property="og:title" content="Burp Suite Certified Practitioner (BSCP) - Sınav Rehberi">
+  <meta property="og:description" content="Sınav Hakkında BSCP, PortSwigger’ın sunduğu ve web güvenlik alanında gerçekten değer gören bir sertifika. Sınav 2 farklı web uygulaması üzerinde geçiyor ve her birinde 3 aşama var, sınavı geçmek için hepsini tamamlamanız gerekmektedir. Toplamda 4 saatiniz var ki bu süre biraz kısa kalabiliyor, özellikle bir rabbit hole’a düşerseniz zamanı iyi yönetmeniz gerekiyor.
+Sınava girmeden önce PortSwigger’ın sunduğu Practice Exam’i mutlaka çözün. Sınav formatına önceden aşina olmanızı sağlıyor, gerçek sınav gibi odaklanarak çözmenizi öneririm.">
+  <meta property="og:locale" content="tr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-03-06T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-03-06T00:00:00+00:00">
+
+
+    
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Burp Suite Certified Practitioner (BSCP) - Sınav Rehberi">
+  <meta name="twitter:description" content="Sınav Hakkında BSCP, PortSwigger’ın sunduğu ve web güvenlik alanında gerçekten değer gören bir sertifika. Sınav 2 farklı web uygulaması üzerinde geçiyor ve her birinde 3 aşama var, sınavı geçmek için hepsini tamamlamanız gerekmektedir. Toplamda 4 saatiniz var ki bu süre biraz kısa kalabiliyor, özellikle bir rabbit hole’a düşerseniz zamanı iyi yönetmeniz gerekiyor.
+Sınava girmeden önce PortSwigger’ın sunduğu Practice Exam’i mutlaka çözün. Sınav formatına önceden aşina olmanızı sağlıyor, gerçek sınav gibi odaklanarak çözmenizi öneririm.">
+
+
+    
+
+    <link rel="canonical" href="https://alperenkeskin.com/posts/bscp/bscp-sinav-rehberi/">
+    <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="https://alperenkeskin.com/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-2JM75S6REN"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-2JM75S6REN');
+        }
+      </script>
+    
+</head>
+<body data-theme = "dark" class="notransition">
+
+<script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="https://alperenkeskin.com/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title></title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/">
+                        Anasayfa
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        Yazılar
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/about/">
+                        Hakkımda
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Burp Suite Certified Practitioner (BSCP) - Sınav Rehberi</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2026-03-06T00:00:00&#43;00:00" itemprop="datePublished"> 06 Mar 2026 </time>
+                </div>
+                
+            </header>
+            
+    
+    <details class="toc" ZgotmplZ>
+        <summary><b></b></summary>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#sınav-hakkında">Sınav Hakkında</a></li>
+    <li><a href="#stage-mantığı">Stage Mantığı</a></li>
+    <li><a href="#sezgisel-ilerleme-ve-pattern-recognition">Sezgisel İlerleme ve Pattern Recognition</a></li>
+    <li><a href="#sınav-tricks">Sınav Tricks</a></li>
+    <li><a href="#stage-1-caseleri">Stage 1 Caseleri</a></li>
+    <li><a href="#stage-2-caseleri">Stage 2 Caseleri</a></li>
+    <li><a href="#stage-3-caseleri">Stage 3 Caseleri</a></li>
+    <li><a href="#burp-suite-extensionları">Burp Suite Extensionları</a></li>
+    <li><a href="#çalışma-kaynakları">Çalışma Kaynakları</a></li>
+  </ul>
+</nav>
+    </details>
+            <div class="page-content">
+                <h2 id="sınav-hakkında">Sınav Hakkında</h2>
+<p>BSCP, PortSwigger&rsquo;ın sunduğu ve web güvenlik alanında gerçekten değer gören bir sertifika. Sınav 2 farklı web uygulaması üzerinde geçiyor ve her birinde 3 aşama var, sınavı geçmek için hepsini tamamlamanız gerekmektedir. Toplamda 4 saatiniz var ki bu süre biraz kısa kalabiliyor, özellikle bir rabbit hole&rsquo;a düşerseniz zamanı iyi yönetmeniz gerekiyor.</p>
+<p>Sınava girmeden önce PortSwigger&rsquo;ın sunduğu Practice Exam&rsquo;i mutlaka çözün. Sınav formatına önceden aşina olmanızı sağlıyor, gerçek sınav gibi odaklanarak çözmenizi öneririm.</p>
+<p>Hazırlık sürecim için çok fazla teorik/pratik çalışma yapmadım açıkçası. Aktif olarak penetration test yaptığım için birçok konuya zaten aşinaydım. PortSwigger lablarındaki eksik gördüğüm alanlara odaklandım ve labları çözdüm, sonrasında sınava girdim. Sertifikayı almak isteyen herkesin önce kendi seviyesini iyi değerlendirmesini öneririm.</p>
+<h2 id="stage-mantığı">Stage Mantığı</h2>
+<p>Sınavın temel mantığı her uygulamada 3 aşamayı geçmek:</p>
+<ul>
+<li><strong>Stage 1</strong> — Anonymous → User (genelde carlos)</li>
+<li><strong>Stage 2</strong> — Carlos → Administrator</li>
+<li><strong>Stage 3</strong> — Administrator → <code>/home/carlos/secret</code> dosyasını okumak</li>
+</ul>
+<p>Her aşamadaki vulnerability random geliyor, tek bir yol yok. Bu yüzden her case&rsquo;e aşina olmak gerekiyor.</p>
+<h2 id="sezgisel-ilerleme-ve-pattern-recognition">Sezgisel İlerleme ve Pattern Recognition</h2>
+<p>Sınavda başarılı olmanın sırrı her şeyi sırayla denemek değil, hedefe yönelik sezgisel bir Pattern Recognition (Örüntü Tanıma) şeklinde ilerlemektir. Uygulamada gördüğünüz ufak bir detay, size doğrudan hangi case&rsquo;i test etmeniz gerektiğini söylemeli.</p>
+<p>Örneğin; bir sayfada Host header&rsquo;ı değiştirdiğinizde uygulama bunu yansıtıyorsa aklınıza hemen Host Header Poisoning gelmeli. Eğer bir Advanced Search sayfası gördüyseniz, burada SQL Injection olabileceğini test etmelisiniz. Admin panelinde User Import gibi bir özellikle karşılaştıysanız, burada XXE zafiyeti olabileceğini test etmelisiniz. Tüm senaryoları ezberlemek yerine bu bakış açısını kazanıp ipuçlarını takip ederek caseleri hızlı ve kontrollü bir şekilde elemek sınavı geçmenizi sağlayacaktır.</p>
+<h2 id="sınav-tricks">Sınav Tricks</h2>
+<ul>
+<li>SSRF&rsquo;de port <code>6566</code>&lsquo;yı dene</li>
+<li>HTTP Request Smuggling için HTTP Request Smuggler extension çalıştır</li>
+<li>Cache poisoning için isteği 10+ kez gönder, tek seferde cache zehirlenmeyebilir</li>
+<li>Filtrelenen path&rsquo;ler için URL encode kullan</li>
+<li>Her iki uygulamayı paralel çalıştır, birini beklerken diğerini tara</li>
+<li>Burp Scanner&rsquo;ı her input için çalıştır</li>
+</ul>
+<blockquote>
+<p>Bu listede yer alan caseler kişisel sınav deneyimim ve araştırmalarım doğrultusunda hazırlanmıştır, sınavın dinamik yapısı gereği farklılık gösterebilir.</p>
+</blockquote>
+<h2 id="stage-1-caseleri">Stage 1 Caseleri</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Case</th>
+          <th>Trigger</th>
+          <th>Lab</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Host Header Poisoning</td>
+          <td>Forgot password sayfası mevcut</td>
+          <td><a href="https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-poisoning-via-middleware">Lab</a></td>
+      </tr>
+      <tr>
+          <td>Web Cache Poisoning</td>
+          <td>Cache header&rsquo;ları mevcut</td>
+          <td><a href="https://portswigger.net/web-security/web-cache-poisoning/exploiting-design-flaws/lab-web-cache-poisoning-with-an-unkeyed-header">Lab 1</a> <a href="https://portswigger.net/web-security/web-cache-poisoning/exploiting-design-flaws/lab-web-cache-poisoning-targeted-using-an-unknown-header">Lab 2</a></td>
+      </tr>
+      <tr>
+          <td>XSS</td>
+          <td>Yorum veya arama inputu mevcut</td>
+          <td><a href="https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-angularjs-expression">Lab 1</a> <a href="https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink-inside-select-element">Lab 2</a> <a href="https://portswigger.net/web-security/dom-based/controlling-the-web-message-source/lab-dom-xss-using-web-messages-and-json-parse">Lab 3</a> <a href="https://portswigger.net/web-security/dom-based/controlling-the-web-message-source/lab-dom-xss-using-web-messages-and-a-javascript-url">Lab 4</a> <a href="https://portswigger.net/web-security/dom-based/controlling-the-web-message-source/lab-dom-xss-using-web-messages">Lab 5</a> <a href="https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-dom-xss-reflected">Lab 6</a> <a href="https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-dom-xss-stored">Lab 7</a> <a href="https://portswigger.net/web-security/cross-site-scripting/contexts/lab-html-context-with-most-tags-and-attributes-blocked">Lab 8</a> <a href="https://portswigger.net/web-security/cross-site-scripting/contexts/lab-html-context-with-all-standard-tags-blocked">Lab 9</a></td>
+      </tr>
+      <tr>
+          <td>HTTP Request Smuggling</td>
+          <td>HTTP Request Smuggler extension çalıştır</td>
+          <td><a href="https://portswigger.net/web-security/request-smuggling/lab-obfuscating-te-header">Lab 1</a> <a href="https://portswigger.net/web-security/request-smuggling/exploiting/lab-bypass-front-end-controls-te-cl">Lab 2</a> <a href="https://portswigger.net/web-security/request-smuggling/exploiting/lab-bypass-front-end-controls-cl-te">Lab 3</a> <a href="https://portswigger.net/web-security/request-smuggling/exploiting/lab-capture-other-users-requests">Lab 4</a> <a href="https://portswigger.net/web-security/request-smuggling/exploiting/lab-deliver-reflected-xss">Lab 5</a></td>
+      </tr>
+      <tr>
+          <td>Bruteforce</td>
+          <td><a href="https://github.com/alperenkesk/BSCP-Cheat-Sheet">Cheat Sheet</a></td>
+          <td><a href="https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-different-responses">Lab 1</a> <a href="https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-subtly-different-responses">Lab 2</a></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="stage-2-caseleri">Stage 2 Caseleri</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Case</th>
+          <th>Trigger</th>
+          <th>Lab</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>SQL Injection</td>
+          <td>Advanced Search sayfası veya TrackingId cookie</td>
+          <td><a href="https://portswigger.net/web-security/sql-injection/blind/lab-time-delays-info-retrieval">Lab 1</a> <a href="https://portswigger.net/web-security/sql-injection/blind/lab-conditional-responses">Lab 2</a> <a href="https://portswigger.net/web-security/sql-injection/blind/lab-out-of-band-data-exfiltration">Lab 3</a> <a href="https://portswigger.net/web-security/sql-injection/blind/lab-out-of-band">Lab 4</a> <a href="https://portswigger.net/web-security/sql-injection/blind/lab-sql-injection-visible-error-based">Lab 5</a> <a href="https://portswigger.net/web-security/sql-injection/examining-the-database/lab-listing-database-contents-non-oracle">Lab 6</a></td>
+      </tr>
+      <tr>
+          <td>IDOR</td>
+          <td>—</td>
+          <td><a href="https://portswigger.net/web-security/access-control/lab-user-role-can-be-modified-in-user-profile">Lab</a></td>
+      </tr>
+      <tr>
+          <td>CSRF</td>
+          <td>—</td>
+          <td><a href="https://portswigger.net/web-security/csrf/lab-no-defenses">Lab 1</a> <a href="https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-validation-depends-on-token-being-present">Lab 2</a> <a href="https://portswigger.net/web-security/csrf/bypassing-referer-based-defenses/lab-referer-validation-broken">Lab 3</a> <a href="https://portswigger.net/web-security/csrf/bypassing-referer-based-defenses/lab-referer-validation-depends-on-header-being-present">Lab 4</a></td>
+      </tr>
+      <tr>
+          <td>CORS</td>
+          <td>Response&rsquo;da CORS izin veriyor</td>
+          <td><a href="https://portswigger.net/web-security/cors/lab-breaking-https-attack">Lab 1</a> <a href="https://portswigger.net/web-security/cors/lab-null-origin-whitelisted-attack">Lab 2</a></td>
+      </tr>
+      <tr>
+          <td>JWT</td>
+          <td>Session token JWT formatında</td>
+          <td><a href="https://portswigger.net/web-security/jwt/lab-jwt-authentication-bypass-via-jwk-header-injection">Lab 1</a> <a href="https://portswigger.net/web-security/jwt/lab-jwt-authentication-bypass-via-kid-header-path-traversal">Lab 2</a> <a href="https://portswigger.net/web-security/jwt/lab-jwt-authentication-bypass-via-jku-header-injection">Lab 3</a></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="stage-3-caseleri">Stage 3 Caseleri</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Case</th>
+          <th>Trigger</th>
+          <th>Lab</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Directory Traversal</td>
+          <td>—</td>
+          <td><a href="https://portswigger.net/web-security/file-path-traversal/lab-absolute-path-bypass">Lab 1</a> <a href="https://portswigger.net/web-security/file-path-traversal/lab-sequences-stripped-non-recursively">Lab 2</a> <a href="https://portswigger.net/web-security/file-path-traversal/lab-superfluous-url-decode">Lab 3</a> <a href="https://portswigger.net/web-security/file-path-traversal/lab-validate-start-of-path">Lab 4</a> <a href="https://portswigger.net/web-security/file-path-traversal/lab-validate-file-extension-null-byte-bypass">Lab 5</a></td>
+      </tr>
+      <tr>
+          <td>SSTI</td>
+          <td>—</td>
+          <td><a href="https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-basic">Lab 1</a> <a href="https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-basic-code-context">Lab 2</a> <a href="https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-with-information-disclosure-via-user-supplied-objects">Lab 3</a> <a href="https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-using-documentation">Lab 4</a> <a href="https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-in-an-unknown-language-with-a-documented-exploit">Lab 5</a></td>
+      </tr>
+      <tr>
+          <td>Command Injection</td>
+          <td>—</td>
+          <td><a href="https://portswigger.net/web-security/os-command-injection/lab-blind-out-of-band-data-exfiltration">Lab 1</a> <a href="https://portswigger.net/web-security/os-command-injection/lab-blind-output-redirection">Lab 2</a></td>
+      </tr>
+      <tr>
+          <td>SSRF</td>
+          <td>—</td>
+          <td><a href="https://portswigger.net/web-security/ssrf/lab-ssrf-with-blacklist-filter">Lab 1</a> <a href="https://portswigger.net/web-security/ssrf/lab-ssrf-filter-bypass-via-open-redirection">Lab 2</a></td>
+      </tr>
+      <tr>
+          <td>XXE</td>
+          <td>Admin panelde XML upload mevcut</td>
+          <td><a href="https://portswigger.net/web-security/xxe/blind/lab-xxe-with-out-of-band-exfiltration">Lab 1</a> <a href="https://portswigger.net/web-security/xxe/blind/lab-xxe-with-data-retrieval-via-error-messages">Lab 2</a> <a href="https://portswigger.net/web-security/xxe/lab-xinclude-attack">Lab 3</a></td>
+      </tr>
+      <tr>
+          <td>SSRF + RFI</td>
+          <td>—</td>
+          <td><a href="https://portswigger.net/web-security/host-header/exploiting/lab-host-header-ssrf-via-flawed-request-parsing">Lab</a></td>
+      </tr>
+      <tr>
+          <td>File Upload</td>
+          <td>—</td>
+          <td><a href="https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-path-traversal">Lab 1</a> <a href="https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-obfuscated-file-extension">Lab 2</a> <a href="https://portswigger.net/web-security/file-upload/lab-file-upload-remote-code-execution-via-polyglot-web-shell-upload">Lab 3</a> <a href="https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-extension-blacklist-bypass">Lab 4</a> <a href="https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-content-type-restriction-bypass">Lab 5</a></td>
+      </tr>
+      <tr>
+          <td>Deserialization</td>
+          <td>Burp Scanner buldu</td>
+          <td><a href="https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-arbitrary-object-injection-in-php">Lab 1</a> <a href="https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-exploiting-java-deserialization-with-apache-commons">Lab 2</a> <a href="https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-exploiting-php-deserialization-with-a-pre-built-gadget-chain">Lab 3</a></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="burp-suite-extensionları">Burp Suite Extensionları</h2>
+<ul>
+<li>HTTP Request Smuggler</li>
+<li>JWT Editor</li>
+<li>DOM Invader</li>
+<li>Hackvertor</li>
+</ul>
+<h2 id="çalışma-kaynakları">Çalışma Kaynakları</h2>
+<ul>
+<li><a href="https://portswigger.net/web-security/certification/practice-exam">Practice Exam</a></li>
+<li><a href="https://github.com/DingyShark/BurpSuiteCertifiedPractitioner">DingyShark BSCP Reposu</a></li>
+<li><a href="https://github.com/botesjuan/Burp-Suite-Certified-Practitioner-Exam-Study/">botesjuan BSCP Reposu</a></li>
+<li><a href="https://portswigger.net/web-security/all-labs">PortSwigger Web Security Academy Tüm Lablar</a></li>
+<li><a href="https://book.hacktricks.wiki/en/pentesting-web/ssti-server-side-template-injection/index.html">HackTricks SSTI Rehberi</a></li>
+</ul>
+<p><img src="/images/bscp.png" alt="BSCP Sertifika"></p>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+<a href="https://www.linkedin.com/in/alperenkeskin/" target="_blank" rel="noopener noreferrer me"
+    title="Linkedin">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect x="2" y="9" width="4" height="12"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+</svg>
+</a>
+<a href="https://github.com/alperenkesk" target="_blank" rel="noopener noreferrer me"
+    title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="/index.xml" target="_blank" rel="noopener noreferrer me"
+    title="Rss">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+</a>
+</div>
+    <small class="footer_copyright">
+        © 2026 Alperen Keskin.
+        
+    </small>
+</footer><a href="#" title="" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
+
+</a>
+
+
+    
+
+
+
+
+    
+    
+        
+    
+
+    
+    
+        
+    
+
+
+
+    
+    <script src="https://alperenkeskin.com/js/main.min.35f435a5d8eac613c52daa28d8af544a4512337d3e95236e4a4978417b8dcb2f.js" integrity="sha256-NfQ1pdjqxhPFLaoo2K9USkUSM30&#43;lSNuSkl4QXuNyy8="></script>
+
+    
+
+</body>
+</html>

@@ -6,7 +6,20 @@
     <description>Recent content in Anasayfa on Alperen Keskin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
-    <lastBuildDate>Sun, 25 Jan 2026 15:00:00 +0300</lastBuildDate><atom:link href="https://alperenkeskin.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alperenkeskin.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Burp Suite Certified Practitioner (BSCP) - Sınav Rehberi</title>
+      <link>https://alperenkeskin.com/posts/bscp/bscp-sinav-rehberi/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperenkeskin.com/posts/bscp/bscp-sinav-rehberi/</guid>
+      
+      <description>&lt;h2 id=&#34;sınav-hakkında&#34;&gt;Sınav Hakkında&lt;/h2&gt;
+&lt;p&gt;BSCP, PortSwigger&amp;rsquo;ın sunduğu ve web güvenlik alanında gerçekten değer gören bir sertifika. Sınav 2 farklı web uygulaması üzerinde geçiyor ve her birinde 3 aşama var, sınavı geçmek için hepsini tamamlamanız gerekmektedir. Toplamda 4 saatiniz var ki bu süre biraz kısa kalabiliyor, özellikle bir rabbit hole&amp;rsquo;a düşerseniz zamanı iyi yönetmeniz gerekiyor.&lt;/p&gt;
+&lt;p&gt;Sınava girmeden önce PortSwigger&amp;rsquo;ın sunduğu Practice Exam&amp;rsquo;i mutlaka çözün. Sınav formatına önceden aşina olmanızı sağlıyor, gerçek sınav gibi odaklanarak çözmenizi öneririm.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Thick Client Sızma Testi: DLL Hijacking</title>
       <link>https://alperenkeskin.com/posts/pentest-teknikleri/dll-hijacking/</link>
