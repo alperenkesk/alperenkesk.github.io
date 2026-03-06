@@ -8,11 +8,11 @@
     <language>tr</language>
     <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alperenkeskin.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Burp Suite Certified Practitioner (BSCP) - Sınav Rehberi</title>
-      <link>https://alperenkeskin.com/posts/bscp/bscp-sinav-rehberi/</link>
+      <title>Burp Suite Certified Practitioner (BSCP) - Sınav Deneyimi</title>
+      <link>https://alperenkeskin.com/posts/bscp/bscp-sinav-deneyimi/</link>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://alperenkeskin.com/posts/bscp/bscp-sinav-rehberi/</guid>
+      <guid>https://alperenkeskin.com/posts/bscp/bscp-sinav-deneyimi/</guid>
       
       <description>&lt;h2 id=&#34;sınav-hakkında&#34;&gt;Sınav Hakkında&lt;/h2&gt;
 &lt;p&gt;BSCP, PortSwigger&amp;rsquo;ın sunduğu ve web güvenlik alanında gerçekten değer gören bir sertifika. Sınav 2 farklı web uygulaması üzerinde geçiyor ve her birinde 3 aşama var, sınavı geçmek için hepsini tamamlamanız gerekmektedir. Toplamda 4 saatiniz var ki bu süre biraz kısa kalabiliyor, özellikle bir rabbit hole&amp;rsquo;a düşerseniz zamanı iyi yönetmeniz gerekiyor.&lt;/p&gt;
